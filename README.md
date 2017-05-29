@@ -3,6 +3,16 @@
 This is an implementation of the popular 'snake' game in Elm.  This project was
 created purely for self-educational purposes.
 
+## Build Instructions
+
+The 'Elm' toolchain is a prerequisite.  Run the following command:
+
+```bash
+$ elm make app.elm ports.elm --output app.js
+```
+
+The `app.js` output along with `index.html` should work in any modern browser.
+
 ## License
 
 Copyright (C) 2017 Masud Rahman
